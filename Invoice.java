@@ -1,7 +1,7 @@
 public class Invoice implements Payable {
-    String ProductName;
-    int Quantity;
-    int PricePerItem;
+    private String ProductName;
+    private int Quantity;
+    private int PricePerItem;
 
     public Invoice (String ProductName, int Quantity, int PricePerItem){
         this.ProductName = ProductName;
